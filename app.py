@@ -214,7 +214,7 @@ def _load_dataframe(selected_service, input_source):
 
 
 def main():
-    st.sidebar.title("Workload Forecaster")
+    st.sidebar.title("Bytedance-TS-Forecast")
     selected_service = st.sidebar.selectbox("Select Service", list(SERVICES.keys()))
     config = SERVICES[selected_service]
 
